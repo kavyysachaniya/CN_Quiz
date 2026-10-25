@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CN MCQ Quiz – Units 1-10</title>
+<style>
+:root{--bg:#05060a;--card:rgba(255,255,255,.035);--bd:rgba(255,255,255,.08);--tx:#eceef8;--mu:#7d84a3;--ac:#8b7bff;--ac2:#3ee0ff;--ok:#2fe3a0;--no:#ff5c7a;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:radial-gradient(900px 500px at 15% -10%,rgba(139,123,255,.16),transparent 60%),radial-gradient(700px 500px at 100% 0,rgba(62,224,255,.10),transparent 60%),var(--bg);background-attachment:fixed;color:var(--tx);font:16px/1.55 Inter,"SF Pro Display",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;min-height:100vh}
+header{padding:28px 16px 8px;text-align:center}
+h1{margin:0;font-size:1.55rem;font-weight:700;letter-spacing:-.02em;background:linear-gradient(90deg,#fff,var(--ac) 55%,var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
+header p{margin:6px 0 0;color:var(--mu);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase}
+nav{display:flex;gap:8px;overflow-x:auto;padding:14px 16px;max-width:900px;margin:auto;scrollbar-width:none}nav::-webkit-scrollbar{display:none}
+button{font:inherit;color:var(--tx);background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:10px 16px;cursor:pointer;transition:.18s;-webkit-tap-highlight-color:transparent}
+button:hover:not(:disabled){border-color:rgba(139,123,255,.6);background:rgba(139,123,255,.08);transform:translateY(-1px)}
+button.on{background:linear-gradient(135deg,var(--ac),#5b6cff);border-color:transparent;color:#fff;font-weight:600;box-shadow:0 6px 24px -6px rgba(139,123,255,.7)}
+nav button{white-space:nowrap;font-size:.88rem}button:disabled{cursor:default}
+main{max-width:900px;margin:auto;padding:4px 16px 56px}
+.bar{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:8px 0 14px}
+.seg{display:inline-flex;gap:4px;padding:4px;border:1px solid var(--bd);border-radius:14px;background:rgba(255,255,255,.02)}.seg button{border:0;background:transparent;padding:8px 14px}
+.chip{display:inline-flex;gap:8px;font-size:.8rem;color:var(--mu)}.chip b{color:var(--tx);padding:3px 10px;border-radius:99px;background:rgba(255,255,255,.06)}.chip b.g{color:var(--ok)}.chip b.r{color:var(--no)}
+.q{background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:20px;margin-bottom:14px;backdrop-filter:blur(10px);box-shadow:0 20px 50px -30px #000}
+.q h3{margin:0 0 14px;font-size:1.05rem;font-weight:600;line-height:1.5}.n{color:var(--ac);font-weight:700;margin-right:4px}
+.o{display:flex;gap:12px;width:100%;text-align:left;margin:8px 0;padding:13px 14px;border-radius:14px;align-items:flex-start}
+.o i{font-style:normal;flex:none;width:26px;height:26px;border-radius:8px;display:grid;place-items:center;font-size:.78rem;font-weight:700;background:rgba(255,255,255,.07);color:var(--mu)}
+.o.sel{border-color:var(--ac)}
+.o.ok{border-color:var(--ok);background:rgba(47,227,160,.10);box-shadow:0 0 0 1px rgba(47,227,160,.25),0 8px 30px -12px rgba(47,227,160,.5)}.o.ok i{background:var(--ok);color:#03130c}
+.o.no{border-color:var(--no);background:rgba(255,92,122,.10);box-shadow:0 0 0 1px rgba(255,92,122,.25),0 8px 30px -12px rgba(255,92,122,.5);animation:sh .35s}.o.no i{background:var(--no);color:#1a0309}
+.o:disabled{color:var(--tx);opacity:1}.o.dim{opacity:.45}
+@keyframes sh{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+@keyframes up{from{opacity:0;transform:translateY(8px)}}
+.fb{margin-top:12px;padding:12px 14px;border-radius:12px;font-weight:600;animation:up .25s}.fb.ok{background:rgba(47,227,160,.1);color:var(--ok)}.fb.no{background:rgba(255,92,122,.1);color:var(--no)}.fb span{color:var(--tx);font-weight:400}
+.prog{height:5px;background:rgba(255,255,255,.07);border-radius:6px;overflow:hidden;margin-bottom:14px}.prog div{height:100%;background:linear-gradient(90deg,var(--ac),var(--ac2));border-radius:6px;transition:width .35s}
+.big{font-size:3.4rem;font-weight:800;letter-spacing:-.03em;background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}.c{text-align:center}
+.mu{color:var(--mu);font-size:.85rem}h2{font-size:1rem;color:var(--mu);letter-spacing:.14em;text-transform:uppercase;margin:24px 2px 12px}
+.shell{display:flex;min-height:100vh}.ct{flex:1;min-width:0}
+aside{width:290px;flex:none;position:sticky;top:0;height:100vh;overflow-y:auto;padding:22px 14px;border-right:1px solid var(--bd);background:rgba(5,6,10,.7);backdrop-filter:blur(18px);z-index:30}
+.brand{font-size:1.15rem;padding:0 8px 18px;letter-spacing:-.01em}.lbl{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--mu);padding:0 8px 8px}
+.ch{display:flex;gap:12px;width:100%;text-align:left;margin:4px 0;border-color:transparent;background:transparent;align-items:center;padding:11px 10px}
+.ch .no{flex:none;width:32px;height:32px;border-radius:10px;display:grid;place-items:center;font-weight:700;background:rgba(255,255,255,.06);color:var(--mu)}
+.ch b{display:block;font-size:.9rem;font-weight:600}.ch small{color:var(--mu);font-size:.72rem}
+.ch.on{background:rgba(139,123,255,.12);border-color:rgba(139,123,255,.45);box-shadow:none;color:var(--tx)}.ch.on .no{background:linear-gradient(135deg,var(--ac),var(--ac2));color:#05060a}
+header{display:flex;align-items:center;gap:12px;justify-content:center;position:relative}header>div{text-align:center}
+#mb{display:none;position:absolute;left:16px;padding:8px 12px}#ov{display:none}
+.seg button{padding:8px 12px;font-size:.88rem}
+.sol{margin-top:12px;padding:14px 16px;border-left:3px solid var(--ac2);background:rgba(62,224,255,.05);border-radius:0 12px 12px 0;line-height:1.75;font-size:.95rem}.sol b{color:var(--ac2)}
+.tag{display:inline-block;font-size:.7rem;letter-spacing:.08em;padding:2px 9px;border-radius:99px;background:rgba(139,123,255,.15);color:var(--ac);margin-left:6px;vertical-align:middle}
+@media(max-width:820px){aside{position:fixed;left:0;top:0;transform:translateX(-105%);transition:.25s;width:285px;background:rgba(8,9,15,.97)}
+body.nv aside{transform:none}body.nv #ov{display:block;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:20}
+#mb{display:block}header{padding:22px 16px 6px 64px;justify-content:flex-start}header>div{text-align:left}h1{font-size:1.25rem}.seg{width:100%}.seg button{flex:1;padding:8px 6px;font-size:.8rem}.bar{flex-direction:column;align-items:stretch}}
+:root{--bg:#0a0a0d;--card:#111115;--bd:rgba(255,255,255,.07);--tx:#e9e9ee;--mu:#767684;--ac:#9a8cff;--ac2:#9a8cff;--ok:#5ad4a0;--no:#f0708a}
+body{background:var(--bg);font-family:Inter,"SF Pro Text",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px;-webkit-font-smoothing:antialiased}
+h1{background:none;color:var(--tx);-webkit-text-fill-color:var(--tx);font-size:1.35rem;font-weight:600;letter-spacing:-.025em}
+header p{font-size:.68rem;letter-spacing:.22em;color:var(--mu)}
+aside{background:#0c0c10;backdrop-filter:none;border-right:1px solid var(--bd);width:270px}
+.brand{font-weight:600;letter-spacing:-.01em;font-size:1rem;color:var(--tx)}.lbl{letter-spacing:.24em}
+button{border-radius:10px;background:transparent;transition:.15s}button:hover:not(:disabled){transform:none;background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.16)}
+button.on{background:var(--tx);color:#0a0a0d;border-color:var(--tx);box-shadow:none;font-weight:600}
+.ch{border-color:transparent;padding:10px}.ch .no{background:transparent;border:1px solid var(--bd);border-radius:8px;width:28px;height:28px;font-size:.8rem}
+.ch.on{background:rgba(255,255,255,.06);border-color:transparent;color:var(--tx)}.ch.on .no{background:var(--tx);color:#0a0a0d;border-color:var(--tx)}
+.seg{background:transparent;border-color:var(--bd);border-radius:12px}.seg button{border:0}.seg button.on{background:rgba(255,255,255,.12);color:var(--tx)}
+.chip b{background:transparent;border:1px solid var(--bd)}
+.q{background:var(--card);backdrop-filter:none;box-shadow:none;border-radius:16px;padding:22px}
+.q h3{font-weight:500;font-size:1.02rem}.n{color:var(--mu);font-weight:600;font-size:.82rem;letter-spacing:.04em}
+.tag{background:transparent;border:1px solid var(--bd);color:var(--mu);letter-spacing:.04em;margin-left:10px}
+.o{border-radius:12px;padding:12px 14px;margin:6px 0;background:transparent}.o i{background:transparent;border:1px solid var(--bd);border-radius:7px;width:24px;height:24px}
+.o.ok{background:rgba(90,212,160,.07);box-shadow:none;border-color:rgba(90,212,160,.5)}.o.ok i{background:var(--ok);border-color:var(--ok);color:#06140d}
+.o.no{background:rgba(240,112,138,.07);box-shadow:none;border-color:rgba(240,112,138,.5)}.o.no i{background:var(--no);border-color:var(--no);color:#190509}
+.o.dim{opacity:.4}
+.fb{background:none!important;padding:14px 0 0;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase}.fb span{text-transform:none;letter-spacing:0;font-size:.9rem}
+.ex{margin-top:14px;padding:14px 16px;border:1px solid var(--bd);border-radius:12px;background:rgba(255,255,255,.025);color:#c9c9d3;font-size:.9rem;line-height:1.7;animation:up .25s}
+.ex b{display:block;font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;color:var(--ac);margin-bottom:4px;font-weight:600}
+.sol{background:rgba(255,255,255,.025);border-left:2px solid var(--ac);border-radius:0 10px 10px 0}.sol b{color:var(--tx)}
+.prog{height:3px;background:rgba(255,255,255,.07)}.prog div{background:var(--tx)}
+.big{background:none;-webkit-text-fill-color:var(--tx);color:var(--tx);font-weight:700}
+.nm{padding:6px 16px 8px}.nm>b{padding-top:8px}
+.nm .r{display:grid;grid-template-columns:76px 1fr;gap:12px;padding:10px 0;border-top:1px solid var(--bd);align-items:start;line-height:1.65}
+.nm .r span{font-size:.64rem;letter-spacing:.18em;text-transform:uppercase;color:var(--mu);padding-top:3px}
+.nm .F div,.nm .W div{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:.84rem;color:#dcdce6;background:rgba(255,255,255,.04);border-radius:8px;padding:8px 12px;overflow-x:auto}
+.nm .G div{color:#b9b9c6}
+.nm .A div{color:var(--ok);font-weight:600;background:rgba(90,212,160,.08);border:1px solid rgba(90,212,160,.25);border-radius:8px;padding:8px 12px}
+.nm sup{font-size:.7em}
+@media(max-width:560px){.nm .r{grid-template-columns:1fr;gap:4px}}
+</style></head><body>
+<div class="shell"><aside id="side"></aside><div id="ov" onclick="tog()"></div><div class="ct"><header><button id="mb" onclick="tog()">☰</button><div><h1>Computer Networks</h1><p>LJ Practice Book · Sem-V 2025 · Units 1–10</p></div></header>
+<main><div class="bar"><div id="modes"></div><span id="info" class="mu"></span></div><div id="app"></div></main></div></div>
+<script>
+const T=["Unit 1: Introduction","Unit 2: Physical Layer","Unit 3: Data Link & LLC","Unit 4: MAC Sublayer","Unit 5: Network Layer","Unit 6: Routing","Unit 7: Transport Basics","Unit 8: Transport Protocols","Unit 9: Application Layer","Unit 10: Network Tools"];
+// format: question|A|B|C|D|answer
+const D=[[
+"The first Network was called|CNNET|NSFNET|ASAPNET|ARPANET|D",
+"Three or more devices share a link in _______ connection.|Unipoint|Multipoint|Point to point|Simplex|B",
+"Two devices are in network if|a process in one device is able to exchange information with a process in another device|a process is running on both devices|PIDs of the processes running on different devices are same|a process is active and another is inactive|A",
+"_______ can determine the category of a network.|Size|Ownership|The Physical Architecture|All of the above|D",
+"In computer networks, LAN stands for _______ Area Network|Local|Live|Long|Length|A",
+"Lower layer is responsible for _______ (on the receiver side)|The letter is picked up, removed from envelope, and read|The letter is delivered from the carrier to the post office|The letter is carried from the post office to the mailbox|None of the above|B",
+"Which layer is not present in TCP/IP?|Application layer|Internet Layer|Transport Layer|Presentation Layer|D",
+"In computer networks, MAN stands for _______ Area Network.|Master|Maximum|Metropolitan|Mini|C",
+"Which of the following are network services?|File Service|Print Service|Database Service|All of the above|D",
+"TCP/IP has how many layers?|5|4|6|7|B",
+"The _______ layer changes bits onto electromagnetic signals.|Physical|Transport|Data Link|Presentation|A",
+"A device that is used to connect number of LANs|Router|Repeater|Bridge|All of the above|A",
+"A group of computers and other devices connected together is called network, and the concept of connected computers sharing resources is called|Networking|Inter-Network|Inter-Connection|Computer Group|A",
+"Which is main function of Transport layer?|Node to Node delivery|End to End delivery|Synchronization|All of the above|B",
+"Which networking hardware can operate at any one of the seven layers of the OSI model?|Router|Gateway|Switch|Modem|B",
+"Which of the following represents Latency?|propagation time + transmission time + queuing time + processing delay|propagation time - transmission time + queuing time + processing delay|propagation time + transmission time + queuing time - processing delay|propagation time + transmission time - queuing time - processing delay|A",
+"What is the time needed by each device on a network to hold the message before processing, called?|Propagation Time|Queuing time|Transmission Time|Jitter|B",
+"Which device can help extend the range of a wireless router?|Wireless Repeater|Wireless Adapter|Wimax|Network Interface Card|A",
+"What does ARPANET stand for?|Automated Research Projects Agency Network|Advanced Research Projects Agency Network|American Research Projects Agency Network|American Research Projects Automated Network|B",
+"What does a set of rules define?|SMTP|FTP|IAMP|Protocol|D",
+"Identify the total versions of IP.|1|2|4|6|B",
+"Which layer isn't present in the TCP/IP model but is included in the OSI model?|Network Layer|Session Layer|Application Layer|Transport Layer|B",
+"What is the length of the IPv4 address?|4 Bits|6 Bits|32 Bits|16 Bits|C",
+"Identify the device used to boost up a weak signal.|Modem|Repeater|Switch|Router|B",
+"What is the length of the IPv6 address?|16 Byte|12 Byte|18 Byte|10 Byte|A",
+"MAC address is of _____ and stored in _______|48 bits, NIC|48 bits, windows|48 bytes, Linux|48 bytes, NIC|A"],[
+"Which of the following represents the fastest data transmission speed?|1 Gbps|Kbps|Bps|Bandwidth|A",
+"In a _______ connection, three or more devices share a link.|point to point|multipoint|(a) and (b)|None of the above.|B",
+"Which transmission direction is not a legitimate channel?|Simplex|Half Duplex|Full Duplex|Double Duplex|D",
+"A _______ is a set of rules that governs data communication|forum|Standards|Protocol|None of the above.|C",
+"Communication in both directions, but only one direction at a time, is called?|Half Duplex|Simplex|Full Duplex|Double Duplex|A",
+"Network components are connected to the same cable in the _______ topology.|MESH|BUS|STAR|RING|B",
+"Geometric arrangement of devices on the network is called _______|Protocols|Topology|Trailer|Lan|B",
+"Which network topology requires a central controller or hub?|MESH|BUS|STAR|RING|C",
+"_______ topology requires a multipoint connection.|MESH|BUS|STAR|RING|B",
+"Which topology has the highest reliability?|MESH|BUS|STAR|RING|A",
+"Frequency of failure and network recovery time after a failure are measures of the _______ of a network.|Reliability|Performance|Security|feasibility|A",
+"The number of cables required for mesh topology is?|n|n-1|one backbone|n(n-1)/2|D",
+"For a network of 99 devices with a dedicated link between every pair, how many links are required?|4851|4951|5858|9999|A",
+"What is the number of cables required for a bus topology?|n|n-1|n(n-1)/2|one backbone and n drop lines|D",
+"A topology describing the geometric arrangement of components that make up the LAN.|complex|logical|physical|incremental|C",
+"Signals with a frequency below 2MHz use _______ propagation.|ground|sky|line of sight|none of above|A",
+"A parabolic dish antenna is a(n) _______ antenna|omnidirectional|unidirectional|bidirectional|horn|B",
+"_______ cable consists of two insulated copper wires twisted together.|coaxial|Fiber-optic|Twisted-pair|None of the above|C",
+"A(n) _______ medium provides a physical conduit from one device to another.|guided|unguided|either (a) or (b)|None of the above|A",
+"Which cable consists of a central conductor and a shield?|coaxial|Fiber-optic|Twisted-pair|None of the above|A",
+"_______ cables carry data signals in the form of light.|coaxial|Fiber-optic|Twisted-pair|None of the above|B",
+"Radio waves are|omnidirectional|unidirectional|bidirectional|both (a) & (b)|A",
+"The physical layer translates logical communication requests from the ______ into hardware specific operations|Datalink|network|transport|application|A",
+"In a fiber optics, the signal is _______ waves.|light|radio|Infrared|very low frequency|A",
+"The inner core of an optical fiber is _______ in composition|copper|bimetallic|glass or plastic|liquid|C",
+"Which transmission media has the highest transmission speed in a network?|coaxial|electric cable|Twisted-pair|optical fiber|D",
+"Which of the following is not a transmission medium?|Telephone lines|Coaxial cables|modem|microwave systems|C",
+"Which is an advantage of fiber optic data transmission?|Resistance to data theft|fast data transmission rate|low noise level|All of above|D",
+"Which communication line is best suited to interactive processing applications?|narrow band channel|Full duplex lines|simplex lines|Mixed Band channel|B",
+"Guided media also known as|bound media|unguided media|unbound media|None of the above.|A",
+"How many forms in twisted pair cable?|1|4|2|3|C",
+"Which cable doesn't come into guided media?|coaxial|Fiber-optic|Twisted-pair|microwave|D",
+"Which of the following are coaxial cable layers?|thinnet|thicknet|copper|A and B both|D",
+"Which connector doesn't come into coaxial cable connectors?|barrel|UTP|BNC|T-connectors|B",
+"What is the condition for total internal reflection?|incidence angle is greater than critical angle|incidence angle is less than critical angle|incidence angle and critical angle equal|incidence angle is not related to critical angle|A",
+"Which task is performed by the Physical Layer?|Logical addressing|Routing of packets|Transmission of raw bits over a communication channel|Error detection and correction|C",
+"Which transmission medium is least affected by electromagnetic interference (EMI)?|Coaxial cable|Fiber optic cable|Twisted pair cable|Shielded twisted pair cable|B",
+"Which statement about microwave transmission is true?|Microwaves are used only for wired communication|Microwaves have frequencies below 1 MHz|Microwaves can easily pass through obstacles|Microwaves require line-of-sight propagation|D",
+"In which topology does each device have a dedicated point-to-point link to every other device?|MESH|BUS|STAR|RING|A",
+"In a ring topology, data travels in:|Multiple paths simultaneously|One direction or sometimes two directions around the ring|Random directions|Star-shaped pattern|B"],[
+"Which of the following tasks is not done by data link layer?|framing|error control|flow control|channel coding|D",
+"When 2 or more bits in a data unit have been changed during the transmission, the error is called|random error|burst error|inverted error|double error|B",
+"Which of the following is not a valid MAC address?|3A:12:34:B2:11:41|3A:12:3E:B2:11:41|3A:12:34:B2:11:4F|3A:12:34:B2:1G:41|D",
+"Which MAC address is Broadcast MAC Address?|AA:BB:CC:12:14:15|12:23:34:45:56:67|AA:BB:CC:DD:EE:FF|FF:FF:FF:FF:FF:FF|D",
+"Which method is used for error detection as well as error correction?|LRC|VRC|Hamming code|CRC|C",
+"In CRC the value of the key / Divisor is known by?|Sender|Receiver|Both|None|C",
+"What is the size of receiver's window for Go Back N ARQ?|2|1|N|None|B",
+"The final code after encoding data bits 1101 into 7-bit even parity Hamming Code is|1010101|1111111|1000000|1100110|A",
+"In bit stuffing when zero is stuffed?|After 4 ones|After 5 ones|After 3 ones|After 6 ones|B",
+"Which Framing method is more efficient?|Byte stuffing|Bit stuffing|Both|None|B",
+"In _______ error correction, the receiver asks the sender to send the data again.|ARQ (Automatic Repeat Request)|FEC (Forward Error Correction)|Revert|None|A",
+"The divisor in a cyclic code is normally called the ______.|Degree|Generator|Redundancy|None|B",
+"What is the minimal Hamming distance between any two correct codewords?|1|2|3|4|C",
+"We add r redundant bits to each block to make n = k + r. The resulting n-bit blocks are called?|Datawords|Blockwords|Codewords|None|C",
+"What is the message length 'k' of a Hamming(7,4) code?|2^r-1|2^r-r+1|2^r-r-1|2^(r+1)-r|C",
+"The _______ of errors is more difficult than the _______.|Correction; detection|detection; correction|creation; correction|creation; detection|A",
+"Data unit 1001000111110000 in 4-bit segments. What is the checksum (add carry if any)?|0101|0000|0011|0100|A",
+"To transmit 17 data bits, how many parity bits are sufficient in Hamming code?|5|4|3|2|A",
+"Main advantage of CRC over VRC and LRC?|Higher error detection capability|Ability to detect and correct errors|Simplicity in implementation|Lower computational overhead|A"],[
+"Why does a station wait a random amount of time before re-transmission after collision in pure ALOHA?|To prevent other stations|To avoid more collisions|To detect other collisions|To get acknowledgment from the receiver|B",
+"Which strategy does pure ALOHA use to prevent congestion caused by continuous re-transmitted frames?|Aborts the retransmission after 5 attempts|A station is allowed to re-transmit for 2 times|Restriction on the attempts for retransmission|Re-transmission has no restriction|C",
+"Vulnerable time of pure ALOHA for fixed length frames (T = frame time)?|2*T|3*T|1/2*T|5*T|A",
+"The throughput for pure ALOHA is max when G =|0.5|1|2|none of above|A",
+"Consider an 800 Kbps link. What is the maximum bandwidth (Kbps) when pure ALOHA is used?|294.4 Kbps|147.2 Kbps|194.4 Kbps|247.2 Kbps|B",
+"The throughput for Pure ALOHA is|S = G × e^−G|S = 2G × e^−G|S = G × e^−2G|none of above|C",
+"Maximum throughput for pure ALOHA is|S = G × e^−G|0.368|S = G × e^−2G|0.184|D",
+"The throughput for slotted ALOHA is max when G =|1|1.5|0.5|none of above|A",
+"The throughput for slotted ALOHA is|S = G × e^−G|S = 2G × e^−G|S = G × e^−2G|none of above|A",
+"Maximum throughput for slotted ALOHA is|S = G × e^−G|0.184|S = G × e^−2G|0.368|D",
+"Consider an 800 Kbps link. What is the maximum bandwidth (Kbps) when slotted ALOHA is used?|194.4 Kbps|294.4 Kbps|246.2 Kbps|146.2 Kbps|B",
+"Radio broadcast on a common frequency uses _________ protocol.|Carrier Sense Multiple Access Protocols|Collision-Free Protocols|Limited-Contention Protocols|ALOHA Protocol|D",
+"___________ is a medium access control protocol used for transmitting data via a shared network channel.|ALOHA Protocol|Framing|TCP|None of the above|A",
+"What is the full form of CSMA?|Carrier Signal Multiple Access|Collision Sense Multiple Access|Channel Sense Multiple Access|Carrier Sense Multiple Access|D",
+"Which of these is not a CSMA access mode?|1-Persistent|P-Persistent|A-Persistent|Non-Persistent|C",
+"CSMA/CA prevents collisions by:|Interframe Space (IFS)|Contention Window|Acknowledgement (ACK)|all of above|D",
+"What is the next step after sending jamming signal in CSMA/CD?|Wait for random time|Increment k|Wait for Tp|all of above|B",
+"What is the next step after sending frame in CSMA/CA?|Wait for timeout|Increment k|Wait for Tp|all of above|A",
+"In CSMA/CD, after the fifth collision, what is the probability that a node chooses K = 4?|0.03125|0.0625|0.015625|none of above|A",
+"A CSMA/CD network runs at 1 Gbps over a 1 km cable with no repeaters. Signal speed is 200000 km/sec. Minimum frame size?|1400 bytes|1250 bytes|1320 bytes|1211 bytes|B",
+"In CSMA/CA the IFS can also be used to define priority of station or frame.|Contention Window|Inter Frame Space|Backoff Time|Frame Type|B",
+"For wireless network _________ is not possible|static IP addressing|cabling infrastructure|collision detection|dedicated bandwidth|C",
+"CSMA/CD can be used in ______________ network|Wi-Fi|Ethernet|Bluetooth|Zigbee|B",
+"What is start frame delimiter (SFD) in ethernet frame?|10101010|10101011|00000000|11111111|B",
+"What IEEE standard is designated for Wi-Fi?|IEEE 802.1|IEEE 802.12|IEEE 802.11|IEEE 802.4|C",
+"The maximum size of payload field in ethernet frame is __________|1000 bytes|1200 bytes|1300 bytes|1500 bytes|D",
+"_____________ is a standard communications protocol embedded in software and hardware devices, intended for building a local area network.|Ethernet|Wi-Fi|Bluetooth|Sneaker net|A",
+"What IEEE standard is designated for Ethernet?|IEEE 802.1|IEEE 802.2|IEEE 802.3|IEEE 802.4|C",
+"What is IEEE 802.3 primarily concerned with?|Wireless networking standards|Wired Ethernet networking standards|Bridging and switching technologies|Network security protocols|B",
+"Which of the following is an Ethernet standard?|10BASE-T|10BASE-P|10BASE-Q|10BASE-R|A",
+"Convert the polynomial x^5 + 2x + 1 into binary|100001|101011|100011|None of the Above|D",
+"If a frame contains data like ESC, Flag and ESC then after adding escape characters the frame would look like _______|ESC,ESC,ESC,ESC,ESC,ESC|ESC,ESC,ESC,flag,ESC,ESC|ESC,Flag,ESC,ESC,ESC,ESC|ESC,ESC,flag,ESC,ESC,ESC|B",
+"A bit-stuffing framing protocol uses an 8-bit delimiter 01111110. If the output bit-string after stuffing is 011111100101, then the input bit-string is:|111110100|111110101|111111101|111111111|B",
+"In CSMA/CD, after the sixth collision, how many distinct values can the random number R take?|1|4|15|64|D",
+"In which layer of the OSI model does CSMA/CD operate?|Data Link Layer|Physical Layer|Session Layer|Presentation Layer|A"],[
+"The network layer is concerned with __________ of data.|bits|frames|packets|bytes|C",
+"Which one is not a function of network layer?|routing|inter-networking|congestion control|error control|D",
+"A 4 byte IP address consists of?|only network address|only host address|network address & host address|network address & MAC address|C",
+"IP is ______________ protocol.|unreliable|connection-oriented|file transfer|secure communication|A",
+"A telephone network is an example of a ______ network|Packet switched|Circuit switched|both of the mentioned|Message switching|B",
+"Which assertion is FALSE about the Internet Protocol (IP)?|A computer can have multiple IP addresses|IP packets from same source to same destination can take different routes|IP ensures a packet is discarded if it cannot reach its destination within a given number of hops|The packet source cannot set the route of an outgoing packet; the route is determined only by routing tables in the routers on the way|D",
+"Networks providing only a connection service at the network layer are called ___, those providing only a connectionless service are called ___|Broadcast, Multicast|Peer-to-peer, Client-server|Connection-oriented, Connectionless|None of the above|C",
+"Which statement best explains the need for the Time to Live (TTL) field in an IP datagram?|It can be used to prioritize packets|It can be used to reduce delays|It can be used to optimize throughput|It can be used to prevent packet looping|D",
+"Which field of an IP header is NOT modified by a typical IP router?|Checksum|Source Address|TTL|Length|B",
+"An IPv4 packet has arrived with the first 8 bits as 01000010. Which is correct?|The number of hops this packet can travel is 2|The total number of bytes in header is 16 bytes|The upper layer protocol is ICMP|The receiver rejects the packet|D",
+"In an IPv4 packet, HLEN is 1000 in binary. How many bytes of options are carried?|4 bytes|12 bytes|16 bytes|8 bytes|B",
+"IPv4 datagram: M bit is 0, HLEN is 10, total length is 400, fragment offset is 300. Position of datagram and first/last payload byte numbers?|Last fragment, 2400 and 2789|First fragment, 2400 and 2759|Last fragment, 2400 and 2759|Middle fragment, 300 and 689|C",
+"Which IPv4 field is not related to fragmentation?|Type of service|Fragment offset|Flags|Identification|A",
+"C1 has IP 203.197.2.53, netmask 255.255.128.0. C2 has IP 203.197.75.201, netmask 255.255.192.0. Which is true?|C1 assumes C2 is on same network, but C2 assumes C1 is on a different network|C1 and C2 both assume they are on the same network|C2 assumes C1 is on same network, but C1 assumes C2 is on a different network|C1 and C2 both assume they are on different networks|A",
+"If C1 and C2 both assume they are on different networks, which action is necessary for them to communicate?|Finding the IP address from the DNS|Finding the IP address of the default gateway|Finding the IP address that corresponds to a MAC address|Finding the MAC address that corresponds to an IP address|D",
+"In a virtual circuit network each packet contains|full source and destination address|a short VC number|both (a) and (b)|none of the mentioned|B",
+"What is the 32-bit binary equivalent of the IP address 223.1.3.27?|11011111.00000001.00000011.00011011|11011111.00000001.00000011.00011001|11011111.00000001.00000011.00011111|11011111.00000001.00000010.00011011|A",
+"Which is the broadcast address for a Class B network ID using the default subnet mask?|172.16.10.255|255.255.255.255|172.16.255.255|172.255.255.255|C",
+"IP address 172.16.13.7 with mask 255.255.255.128. Class, subnet address and broadcast address?|Class A, Subnet 172.16.13.0, Broadcast 172.16.13.127|Class B, Subnet 172.16.13.0, Broadcast 172.16.13.127|Class B, Subnet 172.16.13.0, Broadcast 172.16.13.255|Class B, Subnet 172.16.0.0, Broadcast 172.16.255.255|B",
+"For 12 subnets with a Class C network ID, which subnet mask would you use?|255.255.255.252|255.255.255.255|255.255.255.248|255.255.255.240|D",
+"For 10 subnets with a Class C network ID, which subnet mask would you use?|255.255.255.252|255.255.255.255|255.255.255.248|255.255.255.240|D",
+"IP: 160.168.30.100, Net Mask: 255.255.240.0. What is the broadcast address?|160.168.31.255|160.168.30.255|160.168.24.03|160.168.25.53|A"],[
+"Count-to-Infinity problem occurs in ________________.|Distance vector Routing|Link state|Dijkstra's Algorithm|none of the above|A",
+"Which routing algorithm can be used for network layer design?|Dijkstra's Algorithm|distance vector routing|link state routing|all of the mentioned|D",
+"Routing tables of a router keep track of ________________.|MAC Address Assignments|Port Assignments to network devices|Distribute IP address to network devices|Routes to use for forwarding data to its destination|D",
+"_____ command is used to manipulate TCP/IP routing table.|route|Ipconfig|Ifconfig|Traceroute|A",
+"In ________ forwarding, the full IP address of a destination is given in the routing table.|next-hop|network-specific|host-specific|default|C",
+"Address aggregation was designed to alleviate the increase in routing table entries when using ______.|classful addressing|classless addressing|both a and b|none of the above|B",
+"The routing processor of a router performs the ______ layer functions of the router.|physical and data link|network|transport|none of the above|B",
+"In 223.1.1.0/24, the /24 notation is known as a ______.|subnet mask|CIDR|both a and b|none of the above|C",
+"In Multicast Routing Protocol, _______ is used to broadcast packets, but creates loops in the systems.|Forwarding|Flooding|Backwarding|none of the above|B",
+"What is the natural mask for a class C Network?|255.255.255.1|255.255.255.0|255.255.255.254|255.255.255.255|B",
+"In multicast routing, each involved router needs to construct a ______ path tree for each group.|average|longest|shortest|none of the above|C",
+"OSPF is an intradomain routing protocol based on ______ routing.|distance vector|link state|path vector|none of the above|B",
+"In distance vector routing, the updating packets are sent ________________.|periodically|when there is a change|either a or b|neither a nor b|A",
+"Which algorithm is used by the router in link state routing to find the shortest paths?|OSPF|RIP|Dijkstra algorithm|BGP|C",
+"In link state routing, the updating packet conveys the knowledge of the router about|the whole internetwork|the neighborhood|either a or b|neither a nor b|B"],[
+"Transport layer aggregates data from different applications into a single stream before passing it to|Network Layer|Datalink Layer|Application Layer|Physical Layer|A",
+"Transport layer protocols deal with|application to application communication|process to process communication|node to node communication|man to man communication|B",
+"A ___________ is a TCP name for a transport service access point.|port|pipe|node|socket|A",
+"What are the functions of transport layer?|Multiplexing/Demultiplexing|Connectionless and Connection Oriented Services|Congestion Control|all of the mentioned|D",
+"UDP stands for __________________.|User datagram protocol|Union data Protocol|Unity device protocol|Username data protocol|A",
+"Port address range is ________________ in transport layer|0 to 61,536|0 to 65,535|0 to 62,535|0 to 65,353|B",
+"I. TCP connections are full duplex. II. TCP has no option for selective acknowledgment. III. TCP connections are message streams.|Only I is correct|Only I and II are correct|Only II and III are correct|All of I, II and III are correct|A",
+"Which of the following is not a field in TCP header?|Sequence number|Window size|Checksum|Fragment offset|D",
+"User datagram protocol is called connectionless because ________________.|all UDP packets are treated independently by transport layer|it sends data as a stream of related packets|it is received in the same order as sent order|it sends data very quickly|A",
+"Transport layer is responsible for process to process delivery using __________.|IP Address|MAC Address|Port Address|none of the above|C",
+"Transport layer can identify the symptoms of overload nodes using|Traffic control|Flow control|Byte orientation|Data Integrity|B",
+"SSL stands for ______ and it provides security at ______ layer.|Simple Socket Layer, Transport|Secure Socket Layer, Application|Secure Socket Layer, Transport|Secure Socket Layer, Application|C",
+"The transport layer may be responsible for flow and error control, like the|Physical layer|Data link layer|Subnet layer|Application layer|B",
+"A communication device that combines transmissions from several I/O devices into one line is a|Concentrator|Modifier|Multiplexer|Full duplex file|C",
+"Which are transport layer protocols used in networking?|TCP and FTP|UDP and HTTP|TCP and UDP|HTTP and FTP|C",
+"The sharing of a medium and its link by two or more devices is called?|Fully duplexing|Multiplexing|Microplexing|Duplexing|B",
+"If there are n signal sources of same data rate, the TDM link has ___ slots.|n|n/2|n*2|2^n|A",
+"If a link transmits 4000 frames per second and each slot has 8 bits, the transmission rate of circuit using TDM is?|32kbps|500bps|500kbps|32bps|A",
+"_________ does not provide reliable end to end communication.|TCP|UDP|Both TCP and UDP|Neither TCP nor UDP|B",
+"ARQ stands for __________|Automatic Repeat Request|Automatic Request Repeat|Application Repeat Request|Application Request Repeat|A",
+"What is the efficiency of a system using synchronous TDM if 2 of the 5 devices have nothing to send?|0.2|0.5|0.6|1|C",
+"Ports 0 to 1023 are called ___ ports; 1024 to 49151 are ___ ports; 49152 to 65535 are ___ ports.|well-known, registered, static or public|unknown, registered, dynamic or private|well-known, registered, dynamic|well-known, unregistered, dynamic or private|C",
+"What is the minimum and maximum size of TCP Header in bytes?|40, 60|20, 60|20, 30|60, 120|B"],[
+"Congestion window of a TCP connection is 32 KB when a timeout occurs. RTT is 100 msec, MSS is 2 KB. Time (msec) to get back to 32 KB congestion window is ____.|1100 to 1300|800 to 1000|1400 to 1600|None of the mentioned|A",
+"Congestion Window = 4 KB, Advertised Window = 6 KB, LastByteSent = 10240, LastByteAcked = 8192. The current window size at the sender is|2048 bytes|4096 bytes|6144 bytes|None of the mentioned|B",
+"Bandwidth of a TCP connection is 1048560 bits/sec. 'a' is the RTT (ms) after which the TCP window scale option is needed; 'b' is the max window size with window scale. Values of a and b?|63 ms, 65535 x 2^14|63 ms, 65535 x 2^16|500 ms, 65535 x 2^14|None of the mentioned|C",
+"The main difference between TCP and UDP is|UDP is a datagram whereas TCP is a connection oriented service|UDP is connection oriented whereas TCP is datagram service|TCP is an Internet protocol whereas UDP is an ATM protocol|TCP and UDP both are connectionless service protocols|A",
+"End-to-end connectivity is provided from host-to-host in:|Session layer|Network layer|Data link layer|Transport layer|D",
+"Security based connection is provided by which layer?|Transport layer|Application layer|Network layer|Session layer|A",
+"In transport layer, message is divided into transmittable|Segments|Packets|Frames|Data|A",
+"Which statement is incorrect?|The data link layer handles the transfer of data between the ends of a physical link|The presentation layer transforms information from machine format to the understandable format|The transport layer provides for any format, translation or code conversion necessary to put the data into an intelligible format|All of the above|C",
+"In TCP, an ACK segment, if carrying no data, consumes ___ sequence number(s).|no|one|two|three|A",
+"TCP and UDP are called|Application Protocols|Session Protocols|Transport Protocols|Network Protocols|C",
+"In TCP, SYN segment consumes ___ sequence number(s).|no|one|two|three|B",
+"A client that wishes to connect to an open server tells its TCP that it needs to be connected to that server. The process is called|Active open|Active close|Passive close|Passive open|A",
+"Transmission Control Protocol (TCP) needs buffers for|Storage|Request|Connections|Transmission|A",
+"UDP packets have a fixed-size header of ___ bytes.|16|8|40|32|B",
+"The Source port number in the UDP user datagram header defines|The sender computer|The receiver computer|The process running on the sending computer|The process running on receiving computer|C",
+"TCP, a connection-oriented transport protocol, establishes a|Virtual Communication|Virtual Path|Virtual Flow|Virtual Flow|B",
+"In User Datagram Protocol (UDP), the user datagrams are not|Channeled|Transformed|Numbered|Addressed|C",
+"Beyond IP, UDP provides additional services such as|Routing and switching|Sending and receiving of packets|Multiplexing and demultiplexing|Demultiplexing and error checking|D",
+"'Total length' field in UDP packet header is the length of|Only UDP header|Only data|Only checksum|UDP header plus data|D",
+"A TCP connection transfers a file of 1000 bytes. The first byte is numbered 10001. What is the sequence number of the segment if all data is sent in one segment?|10000|10001|12001|11001|B",
+"Connection establishment in TCP is done by which mechanism?|Flow control|Three-Way Handshaking|Forwarding|Synchronization|B",
+"What allows TCP to detect lost segments and recover from that loss?|Sequence number|Acknowledgment number|Checksum|Both Sequence & Acknowledgment number|D",
+"The port number is an 'ephemeral port number' if the source host is|NTP|Echo|Server|Client|D",
+"UDP is ___ protocol.|Transport Layer Connectionless|Session Layer Connectionless|Transport Layer Connection Oriented|Session Layer Connection Oriented|A",
+"(1) Application Layer provides control structure for communication between applications. (2) Datalink Layer provides reliable transfer of information across the physical link. (3) Transport Layer provides end-to-end error recovery and flow control. Which are correct?|1 and 2 only|1 and 3 only|1, 2 and 3 only|2 and 3 only|D",
+"A long-lived TCP session has end-to-end bandwidth of 1 Gbps and starts with sequence number 1234. Minimum time before this sequence number can be used again (seconds)?|30-32|34 - 35|20-23|40-45|B",
+"Transport layer protocols used for real time multimedia and file transfer are|UDP, UDP|TCP, TCP|UDP, TCP|TCP, UDP|C",
+"Transport layer protocols used for DNS and email respectively are|UDP, UDP|TCP, TCP|UDP, TCP|TCP, UDP|C",
+"Slow start phase: (i) cwnd increases by 2 MSS on every successful ACK (ii) cwnd doubles on every successful ACK (iii) cwnd increases by 1 MSS every RTT (iv) cwnd approximately doubles every RTT. Which is correct?|Only (ii) and (iii) are true|Only (i) and (iii) are true|Only (iv) is true|Only (i) and (iv) are true|C",
+"What is the value of rwnd (bytes) for host A if receiver host B has a buffer size of 7000 bytes and 1000 bytes of received and unprocessed data?|1000|7000|6000|2000|C",
+"What is the window size (bytes) for host A if rwnd is 3000 bytes and cwnd is 5500 bytes?|1000|7000|6000|3000|D",
+"UDP header dump (hex): CB84002C 001C0AEC. What is the destination port number?|43|32|42|44|D",
+"UDP header dump (hex): DB84002C001E0A1C. What is the length of the data?|19|18|22|20|C"],[
+"Address used at application layer is|URL|port address|MAC address|IP address|A",
+"The packet of information at the application layer is called|Packet|Message|Segment|Frame|B",
+"Which one is an architecture paradigm?|Peer to peer|Client-server|HTTP|Both Peer-to-Peer & Client-Server|D",
+"Application developer has permission to decide the following on transport layer side|Transport layer protocol|Maximum buffer size|Both Transport layer protocol and Maximum buffer size|None of the mentioned|C",
+"Application layer offers ___ service.|End to end|Process to process|Both End to end and Process to process|None of the mentioned|A",
+"E-mail is|Loss-tolerant application|Bandwidth-sensitive application|Elastic application|None of the mentioned|C",
+"Which is a time-sensitive service?|File transfer|File download|E-mail|Internet telephony|D",
+"Electronic mail uses which Application layer protocol?|SMTP|HTTP|FTP|SIP|A",
+"The ______ translates internet domain and host names to IP address.|domain name system|routing information protocol|network time protocol|internet relay chat|A",
+"Which allows a user at one site to establish a connection to another site and pass keystrokes from local host to remote host?|HTTP|FTP|Telnet|TCP|C",
+"In which pair can both protocols use multiple TCP connections between the same client and server?|HTTP, FTP|HTTP, TELNET|FTP, SMTP|HTTP, SMTP|A",
+"Which protocol is used for transferring electronic mail messages from one machine to another?|TELNET|FTP|SNMP|SMTP|D",
+"A web server transmits a program to the client that is executed at the client and creates a web document. What are such documents called?|Active|Static|Dynamic|Passive|A",
+"Pick the odd one out.|File transfer|File download|E-mail|Interactive games|D",
+"Application layer protocol defines:|types of messages exchanged|message format, syntax and semantics|rules for when and how processes send|all of the mentioned|D",
+"Which is not an application layer protocol?|HTTP|SMTP|UDP|HTTPS|C",
+"Which is not an application layer protocol?|HTTP|SMTP|FTP|TCP|D"],[
+"To find the number of routers between a source and destination, the utility to use is|route|Ipconfig|Ifconfig|Traceroute|D",
+"______ command is used to manipulate TCP/IP routing table.|route|Ipconfig|Ifconfig|Traceroute|A",
+"Ping sweep is a part of|route|N-map|Ifconfig|Traceroute|B",
+"Wireshark is a ______ tool.|network protocol analysis|network connection security|connection analysis|defending malicious packet filtering|A",
+"Wireshark filter for filter by IP|ip.addr == 10.10.50.1|ip.dest == 10.10.50.1|ip.src == 10.10.50.1|None of mentioned|A",
+"Wireshark filter for filter by destination IP|ip.addr == 10.10.50.1|ip.dest == 10.10.50.1|ip.src == 10.10.50.1|None of mentioned|B",
+"Wireshark filter for filter by source IP|ip.addr == 10.10.50.1|ip.dest == 10.10.50.1|ip.src == 10.10.50.1|None of mentioned|C",
+"Wireshark filter for filter by Port|tcp.port == 25|tcp.port.port==25|tcp.dstport == 25|None of mentioned|A",
+"Wireshark filter for filter by URL|tcp.port == 25|http.host == 'host name'|tcp.dstport.port == 25|None of mentioned|B",
+"Wireshark filter for filter by Destination Port|tcp.port == 25|tcp.port.port==25|tcp.dstport == 25|None of mentioned|C",
+"What filter finds packets from or for the specific IP address 8.8.8.8?|ip.addr==8.8.8.8|ipaddress=8.8.8.8|ip address=8.8.8.8|ip ,,addr==8.8.8.8|A"]];
+const EX=[[],[],[],[],[
+"The network layer PDU is the packet (datagram).",
+"Error control belongs to data link/transport layers; network layer does routing, internetworking and congestion control.",
+"An IPv4 address (32 bits) = network ID + host ID.",
+"IP is best-effort: no ack, ordering or guarantee, so it is unreliable and connectionless.",
+"A telephone call reserves a dedicated path first, so it is circuit switching.",
+"The source-route option lets the sender specify the route, so D is false.",
+"Connection-oriented = virtual circuit set-up first; connectionless = datagram service.",
+"TTL is decremented at every hop and the packet is dropped at 0, which prevents infinite looping.",
+"The source address stays the same end to end; TTL and checksum change at each hop, and length changes on fragmentation.",
+"First byte 0100 0010: version = 4, HLEN = 2 so header = 2×4 = 8 B, which is less than the 20 B minimum, so it is rejected.",
+"Header length = HLEN×4 = 8×4 = 32 B. Options = 32 − 20 = 12 B.",
+"Header = 10×4 = 40 B, payload = 400 − 40 = 360 B. First byte = offset×8 = 300×8 = 2400, last = 2400 + 360 − 1 = 2759. M = 0 means last fragment.",
+"Type of Service is for QoS; Identification, Flags and Fragment offset handle fragmentation.",
+"C1 mask /17: 2 AND 128 = 0 and 75 AND 128 = 0, so C1 thinks C2 is on its network. C2 mask /18: 75 AND 192 = 64 but C1 gives 0, so C2 thinks C1 is remote.",
+"Remote hosts are reached through the default gateway, so its MAC is needed via ARP (IP to MAC).",
+"A virtual-circuit packet carries only a short VC number; full addresses are used in set-up.",
+"Convert each octet: 223 = 11011111, 1 = 00000001, 3 = 00000011, 27 = 00011011.",
+"Class B default mask is 255.255.0.0; broadcast sets all host bits to 1: 172.16.255.255.",
+"Mask /25, block size = 256 − 128 = 128. 13.7 lies in 13.0 to 13.127, so the subnet is 172.16.13.0 and broadcast is 172.16.13.127 (Class B).",
+"Need 2^n ≥ 12 subnets, so n = 4 bits borrowed: /28 = 255.255.255.240.",
+"Need 2^n ≥ 10 subnets, so n = 4 bits borrowed: /28 = 255.255.255.240.",
+"Mask /20: block size in 3rd octet = 256 − 240 = 16. 30 lies in 16 to 31, so broadcast = 160.168.31.255."],[
+"Distance vector routers know only neighbours' distances, so bad news spreads slowly (count to infinity).",
+"Dijkstra (link state) and distance vector (Bellman-Ford) are both used.",
+"A routing table maps each destination to a next hop and interface for forwarding.",
+"route shows or edits the routing table; traceroute only traces a path.",
+"Host-specific entries keep the full IP address; network-specific entries keep only the network ID.",
+"CIDR (classless) lets many prefixes be aggregated into one, shrinking routing tables.",
+"Routers work at the network layer (layer 3).",
+"/24 is CIDR prefix notation and is equivalent to the subnet mask 255.255.255.0, so both.",
+"Flooding sends on all interfaces and can loop; RPF or pruning removes loops.",
+"Class C has 24 network bits: 255.255.255.0.",
+"Each router builds a shortest-path tree for every group.",
+"OSPF is link state: LSAs are flooded and each router runs Dijkstra.",
+"DV routers send their whole table periodically (e.g. RIP every 30 s).",
+"Link state routing computes shortest paths using Dijkstra's algorithm.",
+"A link state packet lists only the router's own neighbours and link costs, flooded to everyone."],[
+"The transport layer multiplexes data from many applications into one stream for the network layer.",
+"Transport = process-to-process delivery; network = host-to-host.",
+"A port identifies a service access point (process); a socket is IP address + port.",
+"Transport does mux/demux, connection-oriented (TCP) and connectionless (UDP) service, and congestion control.",
+"UDP = User Datagram Protocol.",
+"Ports are 16-bit: 0 to 2^16 − 1 = 65,535.",
+"TCP is full duplex and a byte stream (not message stream), and supports SACK, so only I is correct.",
+"Fragment offset is an IP header field, not TCP.",
+"UDP datagrams are independent: no connection, no ordering.",
+"The port number identifies the process; the IP address only reaches the host.",
+"Receiver overload is detected and controlled through flow control (window advertisements).",
+"SSL = Secure Socket Layer, working over TCP at the transport layer.",
+"The data link layer also does flow and error control, hop by hop.",
+"A multiplexer combines several inputs into one line.",
+"TCP and UDP are transport protocols; FTP and HTTP are application protocols.",
+"Multiplexing = sharing a link by several devices.",
+"Synchronous TDM assigns one slot per source, so n sources give n slots per frame.",
+"Rate = frames/s × bits/slot = 4000 × 8 = 32 kbps.",
+"UDP has no acknowledgement or retransmission, so it is unreliable.",
+"ARQ = Automatic Repeat reQuest.",
+"Efficiency = used slots / total slots = 3/5 = 0.6.",
+"0 to 1023 well-known, 1024 to 49151 registered, 49152 to 65535 dynamic/private.",
+"TCP header: minimum 20 B, maximum 60 B (HLEN is 4 bits × 4 = 60 B max)."],[
+"Timeout sets ssthresh = 32/2 = 16 KB and cwnd = 1 MSS. Slow start 1,2,4,8,16 MSS takes 4 RTT, then +1 MSS per RTT from 16 KB to 32 KB (8 to 16 MSS) takes 8 RTT. Total 12 × 100 = 1200 ms.",
+"Window = min(cwnd, rwnd) = min(4 KB, 6 KB) = 4096 B.",
+"Without scaling the window is at most 65535 B. RTT = window×8 / bandwidth = 524280 / 1048560 = 0.5 s = 500 ms. Maximum scaled window = 65535 × 2^14.",
+"TCP is connection-oriented and reliable; UDP is a connectionless datagram service.",
+"The transport layer provides end-to-end (host to host, process to process) delivery.",
+"Security connections such as SSL/TLS are built on the transport layer.",
+"The transport layer PDU is the segment.",
+"Translation and code conversion belong to the presentation layer, not transport.",
+"An ACK carrying no data consumes no sequence number.",
+"TCP and UDP are transport layer protocols.",
+"SYN consumes exactly one sequence number.",
+"The client starting the connection performs an active open; the server waits with a passive open.",
+"TCP uses send/receive buffers to store data.",
+"UDP header = 4 fields × 2 B = 8 bytes.",
+"The source port identifies the sending process.",
+"A connection-oriented protocol sets up a virtual (logical) path between sender and receiver.",
+"UDP user datagrams are not numbered (no sequence numbers), unlike TCP segments.",
+"UDP adds process-to-process delivery (mux/demux) and error checking (checksum) beyond IP.",
+"UDP length = header (8 B) + data.",
+"A segment's sequence number is the number of its first byte = 10001.",
+"TCP uses the three-way handshake: SYN, SYN+ACK, ACK.",
+"Sequence numbers and ACK numbers together show which bytes are missing and trigger retransmission.",
+"A client picks a temporary (ephemeral) port 49152 to 65535; servers use well-known ports.",
+"UDP is a transport layer, connectionless protocol.",
+"Statement 1 is wrong (session layer controls dialogue between applications); 2 and 3 are correct.",
+"Sequence space = 2^32 B. Time = 2^32×8 / 10^9 = 34.4 s, so 34 to 35 s.",
+"Real-time multimedia uses UDP (low delay); file transfer uses TCP (reliable).",
+"DNS queries use UDP; email (SMTP) uses TCP.",
+"In slow start cwnd grows by 1 MSS per ACK, so it approximately doubles every RTT.",
+"rwnd = buffer − unprocessed data = 7000 − 1000 = 6000 B.",
+"Window = min(rwnd, cwnd) = min(3000, 5500) = 3000 B.",
+"Each port is 2 bytes: 0x002C = 2×16 + 12 = 44.",
+"Length field 0x001E = 30 B. Data = length − header = 30 − 8 = 22 B."],[
+"A URL identifies a resource at the application layer.",
+"The application layer PDU is the message.",
+"Client-server and peer-to-peer are architectural paradigms; HTTP is a protocol.",
+"The developer chooses the transport protocol (TCP/UDP) and may set parameters like buffer size.",
+"The application layer gives an end-to-end service between application processes on end systems.",
+"E-mail tolerates delay and is an elastic application.",
+"Internet telephony needs low delay, so it is time-sensitive.",
+"SMTP is the mail transfer protocol.",
+"DNS maps domain/host names to IP addresses.",
+"Telnet gives remote login by sending keystrokes to the remote host.",
+"HTTP can open parallel connections and FTP uses separate control and data connections.",
+"SMTP transfers mail from one machine (server) to another.",
+"An active document is a program sent to the client and executed there (e.g. a Java applet).",
+"Interactive games are real-time; file transfer, download and e-mail are elastic.",
+"An application protocol defines message types, format/syntax/semantics and the rules for sending.",
+"UDP is a transport layer protocol.",
+"TCP is a transport layer protocol."],[
+"traceroute increments TTL to list each router (hop) on the path.",
+"The route command displays and edits the routing table.",
+"Nmap performs ping sweeps (host discovery).",
+"Wireshark captures and analyses network protocols and packets.",
+"ip.addr matches either source or destination IP.",
+"Destination IP filter (book key ip.dest; Wireshark's own field is ip.dst).",
+"ip.src filters by source IP.",
+"tcp.port matches either source or destination port.",
+"http.host filters on the host name in the HTTP request.",
+"tcp.dstport matches the destination port.",
+"ip.addr==8.8.8.8 matches packets to or from that address; the others are invalid syntax."]];
+const R=[[1,26],[67,106],[117,135],[163,197],[214,235],[262,276],[296,318],[323,356,345],[379,396,393],[410,420]];
+const NUM=R.map(([a,b,x])=>{const r=[];for(let n=a;n<=b;n++)if(n!=x)r.push(n);return r});
+const Q=D.map((c,k)=>c.map((s,j)=>{const p=s.split("|");return{e:EX[k][j]||"",n:NUM[k][j],q:p[0],o:p.slice(1,5),a:"ABCD".indexOf(p[5])}}));
+const NX={
+224:"G:HLEN = 1000₂ = 8\nF:Header = HLEN × 4 &nbsp;·&nbsp; Options = Header − 20\nW:Header = 8 × 4 = 32 B → Options = 32 − 20 = 12 B\nA:12 bytes (B)",
+225:"G:M = 0, HLEN = 10, Total length = 400, Offset = 300\nF:Header = HLEN × 4 &nbsp;·&nbsp; Payload = Total − Header<br>First byte = Offset × 8 &nbsp;·&nbsp; Last byte = First + Payload − 1\nW:Header = 40 B → Payload = 360 B<br>First = 300 × 8 = 2400 → Last = 2400 + 360 − 1 = 2759\nA:Last fragment (M = 0), bytes 2400 to 2759 (C)",
+227:"G:C1 = 203.197.2.53 with /17 (255.255.128.0)<br>C2 = 203.197.75.201 with /18 (255.255.192.0)\nF:Network ID = IP AND mask (3rd octet decides)\nW:C1 view: 2 AND 128 = 0 and 75 AND 128 = 0 → same network<br>C2 view: 75 AND 192 = 64 and 2 AND 192 = 0 → different network\nA:C1 assumes same network, C2 assumes different (A)",
+230:"F:Convert each octet to 8-bit binary\nW:223 = 11011111, 1 = 00000001, 3 = 00000011, 27 = 00011011\nA:11011111.00000001.00000011.00011011 (A)",
+231:"G:Class B, default mask 255.255.0.0\nF:Broadcast = network bits unchanged, all host bits = 1\nW:Host part = last 16 bits → 255.255\nA:172.16.255.255 (C)",
+232:"G:172.16.13.7 with mask 255.255.255.128 (/25)\nF:Block size = 256 − 128 = 128\nW:Host octet 7 lies in 0 to 127 → Subnet = 172.16.13.0<br>Broadcast = 0 + 127 → 172.16.13.127<br>First octet 172 (128 to 191) → Class B\nA:Class B, subnet 172.16.13.0, broadcast 172.16.13.127 (B)",
+233:"G:12 subnets, Class C (/24)\nF:2<sup>n</sup> ≥ subnets &nbsp;·&nbsp; New prefix = 24 + n\nW:2<sup>4</sup> = 16 ≥ 12 → n = 4 → /28\nA:255.255.255.240 (D)",
+234:"G:10 subnets, Class C (/24)\nF:2<sup>n</sup> ≥ subnets &nbsp;·&nbsp; New prefix = 24 + n\nW:2<sup>4</sup> = 16 ≥ 10 → n = 4 → /28\nA:255.255.255.240 (D)",
+235:"G:160.168.30.100, mask 255.255.240.0 (/20)\nF:Block size = 256 − mask octet\nW:3rd octet block = 256 − 240 = 16 → 30 lies in 16 to 31<br>Broadcast 3rd octet = 31, host octet = 255\nA:160.168.31.255 (A)",
+313:"G:4000 frames/s, 8 bits per slot\nF:Rate = frames per second × bits per slot\nW:4000 × 8 = 32,000 bps\nA:32 kbps (A)",
+316:"G:5 devices, 2 have nothing to send\nF:Efficiency = used slots ÷ total slots\nW:3 ÷ 5 = 0.6\nA:0.6 (C)",
+323:"G:cwnd = 32 KB at timeout, RTT = 100 ms, MSS = 2 KB (32 KB = 16 MSS)\nF:ssthresh = cwnd ÷ 2 &nbsp;·&nbsp; Slow start doubles per RTT, then +1 MSS per RTT\nW:cwnd restarts at 1 MSS, ssthresh = 8 MSS<br>Slow start: 1 → 2 → 4 → 8 = 3 RTT<br>Congestion avoidance: 8 → 16 MSS = 8 RTT<br>Total = 11 RTT × 100 ms\nA:1100 ms (A)",
+324:"G:cwnd = 4 KB, rwnd = 6 KB\nF:Window = min(cwnd, rwnd)\nW:min(4096, 6144) = 4096 B\nA:4096 bytes (B)",
+325:"G:Bandwidth = 1,048,560 bps; max window without scaling = 65,535 B\nF:RTT = (Window × 8) ÷ Bandwidth &nbsp;·&nbsp; Max scaled window = 65535 × 2<sup>14</sup>\nW:RTT = 524,280 ÷ 1,048,560 = 0.5 s = 500 ms<br>Window scale shift is at most 14\nA:a = 500 ms, b = 65535 × 2<sup>14</sup> (C)",
+342:"G:First byte number = 10001, data = 1000 bytes\nF:Segment sequence number = number of its first byte\nW:Bytes 10001 to 11000 in one segment\nA:10001 (B)",
+349:"G:Sequence space = 2<sup>32</sup> bytes, rate = 1 Gbps\nF:Time = (2<sup>32</sup> × 8) ÷ 10<sup>9</sup>\nW:34.36 × 10<sup>9</sup> ÷ 10<sup>9</sup> = 34.36 s\nA:34 to 35 s (B)",
+353:"G:Buffer = 7000 B, unprocessed = 1000 B\nF:rwnd = buffer − unprocessed data\nW:7000 − 1000 = 6000\nA:6000 B (C)",
+354:"G:rwnd = 3000 B, cwnd = 5500 B\nF:Window = min(rwnd, cwnd)\nW:min(3000, 5500) = 3000\nA:3000 B (D)",
+355:"G:UDP header CB84 002C 001C 0AEC (4 fields × 2 bytes)\nF:Source port | Destination port | Length | Checksum\nW:Destination port = 0x002C = 2 × 16 + 12 = 44\nA:44 (D)",
+356:"G:UDP header DB84 002C 001E 0A1C\nF:Data = Length − 8 (UDP header)\nW:Length = 0x001E = 30 → Data = 30 − 8 = 22\nA:22 bytes (C)"};
+Q.forEach(c=>c.forEach(q=>{if(NX[q.n])q.e=NX[q.n]}));
+function ex(q){if(!q.e)return"";if(!q.e.includes("\n"))return`<div class="ex"><b>Explanation</b>${q.e}</div>`;const L={G:"Given",F:"Formula",W:"Working",A:"Answer"};return`<div class="ex nm"><b>Solution</b>${q.e.split("\n").map(l=>`<div class="r ${l[0]}"><span>${L[l[0]]}</span><div>${l.slice(2)}</div></div>`).join("")}</div>`}
+let ch=4,mode="read",i=0,ans=[],done=false;
+const $=id=>document.getElementById(id),L="ABCD";
+function tog(){document.body.classList.toggle("nv")}
+function nav(){$("side").innerHTML=`<div class="brand"><b>CN Quiz</b></div><div class="lbl">Chapters</div>`+T.map((t,k)=>`<button class="ch ${k==ch?'on':''}" onclick="ch=${k};start()"><span class="no">${k+1}</span><span><b>${t.split(": ")[1]}</b><small>${Q[k].length} MCQs${S[k].length?" · "+S[k].length+" solved":""}</small></span></button>`).join("");
+$("modes").innerHTML=`<div class="seg">`+[["read","Read"],["quiz","Quiz"],["sol","Solutions"]].map(m=>`<button class="${mode==m[0]?'on':''}" onclick="mode='${m[0]}';start()">${m[1]}</button>`).join("")+`</div>`}
+function sol(){if(!S[ch].length){$("info").innerHTML="";$("app").innerHTML=`<div class="q c"><div class="big">🧮</div><p class="mu">No worked solutions for this chapter yet.<br>Try Read or Quiz mode.</p></div>`;return}$("info").innerHTML=`<span class="chip"><b>${S[ch].length}</b> solved</span>`;
+$("app").innerHTML=S[ch].map(x=>`<div class="q"><h3><span class="n">Q${x[0]}.</span>${x[1]}</h3><div class="sol">${x[2]}</div></div>`).join("")}
+function start(){document.body.classList.remove("nv");i=0;done=false;ans=Array(Q[ch].length).fill(-1);nav();render();scrollTo(0,0)}
+function opt(q,k,st,lock){return`<button class="o ${st||''}" ${lock?"disabled":""} onclick="pick(${k})"><i>${L[k]}</i><span>${q.o[k]}</span></button>`}
+function render(){const qs=Q[ch],A=$("app");if(mode=="sol"){sol();return}
+if(mode=="read"){$("info").innerHTML=`<span class="chip"><b>${qs.length}</b> questions</span>`;
+A.innerHTML=qs.map((q,n)=>`<div class="q"><h3><span class="n">Q${q.n}.</span>${q.q}</h3>${q.o.map((_,k)=>opt(q,k,k==q.a?"ok":"dim",1)).join("")}${ex(q)}</div>`).join("");return}
+if(done){review();return}
+const q=qs[i],lk=ans[i]>=0,r=ans.filter((x,n)=>x==qs[n].a).length,w=ans.filter((x,n)=>x>=0&&x!=qs[n].a).length;
+$("info").innerHTML=`<span class="chip">✓ <b class="g">${r}</b> ✗ <b class="r">${w}</b></span>`;
+const st=k=>!lk?"":k==q.a?"ok":k==ans[i]?"no":"dim";
+A.innerHTML=`<div class="prog"><div style="width:${(i+(lk?1:0))/qs.length*100}%"></div></div><div class="q"><h3><span class="n">Q${q.n}.</span>${q.q}<span class="tag">${i+1} / ${qs.length}</span></h3>${q.o.map((_,k)=>opt(q,k,st(k),lk)).join("")}
+${lk?(ans[i]==q.a?`<div class="fb ok">Correct</div>`:`<div class="fb no">Incorrect · <span>Correct answer: <b>${L[q.a]}. ${q.o[q.a]}</b></span></div>`):""}${lk?ex(q):""}</div>
+<div class="bar"><button onclick="i--;render()" ${i==0?"disabled":""}>← Prev</button>${i<qs.length-1?`<button class="${lk?'on':''}" onclick="i++;render()">Next →</button>`:`<button class="on" onclick="finish()">Finish ✓</button>`}</div>`}
+function pick(k){if(mode=="quiz"&&ans[i]<0){ans[i]=k;render()}}
+function finish(){const un=ans.filter(x=>x<0).length;if(un&&!confirm(un+" unanswered question(s). Finish anyway?"))return;done=true;render();scrollTo(0,0)}
+addEventListener("keydown",e=>{if(mode!="quiz"||done)return;const k=L.indexOf(e.key.toUpperCase());if(k>=0&&e.key.length==1)pick(k);else if(e.key=="ArrowRight"&&i<Q[ch].length-1){i++;render()}else if(e.key=="ArrowLeft"&&i>0){i--;render()}});
+function review(){const qs=Q[ch],s=qs.filter((q,n)=>ans[n]==q.a).length,sk=ans.filter(x=>x<0).length,pc=Math.round(s/qs.length*100);
+$("info").innerHTML=`<span class="chip">Results</span>`;
+$("app").innerHTML=`<div class="q c"><div class="big">${s}/${qs.length}</div><p>${pc}% · ${qs.length-s-sk} wrong · ${sk} skipped<br>${pc>=80?"🏆 Excellent!":pc>=50?"👍 Good – review the misses.":"📚 Keep practicing!"}</p><button class="on" onclick="start()">Retry</button> <button onclick="mode='read';start()">Study mode</button></div><h2>Review answers</h2>`+
+qs.map((q,n)=>`<div class="q"><h3><span class="n">Q${q.n}.</span>${q.q}</h3>${q.o.map((_,k)=>opt(q,k,k==q.a?"ok":ans[n]==k?"no":"dim",1)).join("")}${ex(q)}<p class="mu">${ans[n]<0?"Skipped":ans[n]==q.a?"Correct":"Your answer: "+L[ans[n]]+" · Correct: "+L[q.a]}</p></div>`).join("")}
+const S=[[
+[27,"Propagation time: distance 12000 km, speed 2.4×10^8 m/s","t = d/v = 12×10^6 / 2.4×10^8 = 0.05 s<br><b>= 50 ms</b>"],
+[28,"Transmission time of a 2.5 KB message at 1 Gbps","Bits = 2.5×1000×8 = 20,000<br>t = 20,000 / 10^9 = 2×10^-5 s<br><b>= 0.02 ms</b>"],
+[29,"1000-byte packet, 2500 km link, 2.5×10^8 m/s, 2 Mbps","Transmission = 8000 / 2×10^6 = 4 ms<br>Propagation = 2.5×10^6 / 2.5×10^8 = 10 ms<br><b>Total = 14 ms</b>"],
+[30,"Links R1=500 kbps, R2=2 Mbps, R3=1 Mbps. Throughput? Time for 4 million bytes? Repeat with R2=100 kbps","Throughput = bottleneck = min of link rates.<br>A) min(500k, 2M, 1M) = <b>500 kbps</b><br>B) 4×10^6×8 = 32×10^6 bits → 32×10^6 / 500×10^3 = <b>64 s</b><br>C) R2=100 kbps → throughput <b>100 kbps</b>; time = 32×10^6 / 10^5 = <b>320 s</b>"],
+[31,"Links R1=700 kbps, R2=5 Mbps, R3=1 Mbps. File 14 million bytes; repeat with R2=100 kbps","A) min = <b>700 kbps</b><br>B) 14×10^6×8 = 112×10^6 bits → /700×10^3 = <b>160 s</b><br>C) min = <b>100 kbps</b>; time = 112×10^6 / 10^5 = <b>1120 s</b>"],
+[32,"150,000-byte message, 4 hops of 20 km at 100 Mb/s, 1500-byte packets: end-to-end delay","Packets = 150,000/1500 = 100; 12,000 bits each.<br>Ttrans/hop = 12,000/10^8 = 0.12 ms; Tprop/hop = 20 km/(2×10^8 m/s) = 0.1 ms (speed assumed 2×10^8).<br>Store-and-forward: (hops + packets − 1)×Ttrans + hops×Tprop<br>= (4+100−1)(0.12) + 4(0.1) = 12.36 + 0.4 = <b>12.76 ms</b>"],
+[33,"Two hosts via one switch, 10^7 bps links, 20 µs propagation each, 35 µs switch delay, 10000 bits in 5000-bit packets","Ttrans = 5000/10^7 = 500 µs; 2 packets.<br>Pkt1 reaches switch: 500+20 = 520 µs; forwarding starts 555 µs.<br>Pkt2 reaches switch at 1020 µs (+35 = 1055 µs, link free at 1055 µs) → starts 1055 µs.<br>Pkt2 done: 1055 + 500 + 20 = <b>1575 µs</b>"],
+[34,"Same setup: 50 µs propagation, 45 µs switch delay, 3000 bits (one packet)","Ttrans = 3000/10^7 = 300 µs.<br>Total = 300 + 50 (link 1) + 45 (switch) + 300 + 50 (link 2) = <b>745 µs</b>"],
+[35,"A→C→D, 4000-byte packet, 1000 km links, 2.5×10^8 m/s, 4 Mbps, no processing/queuing at C","2 links. Ttrans = 32,000/4×10^6 = 8 ms; Tprop = 10^6/2.5×10^8 = 4 ms.<br>Total = 2×(8+4) = <b>24 ms</b>"],
+[36,"D1→D2→D4→D5, 4000 bytes, 10000 km links, 2.5×10^8 m/s, 2 Mbps","3 links. Ttrans = 32,000/2×10^6 = 16 ms; Tprop = 10^7/2.5×10^8 = 40 ms.<br>Total = 3×(16+40) = <b>168 ms</b>"],
+[37,"40,000-byte file over R1=500k, R2=1M, R3=2M. (B) Direct via R2, 10,000-byte packets, 20-byte ACK after all packets, 20 ms propagation","A) Throughput = min = <b>500 kbps</b> (file time 320,000/500k = 0.64 s).<br>B) Packet = 80,000 bits → 80 ms at 1 Mbps; 4 packets = 320 ms sending.<br>Last bit arrives at 320+20 = 340 ms. ACK = 160 bits → 0.16 ms, +20 ms back.<br><b>Total = 360.16 ms</b>"],
+[38,"10^6-bit file, 1000 packets of 1000 bits, 3 links of 1000 km, 2×10^8 m/s, 100 Kbps each: total transmission + propagation","Ttrans/pkt/link = 1000/10^5 = 10 ms; Tprop/link = 10^6/2×10^8 = 5 ms.<br>Pipeline: (3+1000−1)×10 = 10,020 ms; propagation = 3×5 = 15 ms.<br><b>Total = 10,035 ms</b>"],
+[39,"1,500,000-byte message, 4 hops of 20 km at 100 Mb/s, 1500-byte packets, 2×10^8 m/s","Packets = 1000; Ttrans/hop = 0.12 ms; Tprop/hop = 0.1 ms.<br>(4+1000−1)(0.12) + 4(0.1) = 120.36 + 0.4 = <b>120.76 ms</b>"],
+[40,"Propagation delay: 3000 km, 2×10^8 m/s","3×10^6 / 2×10^8 = <b>15 ms</b>"],
+[41,"Transmission delay: 10 MB file at 100 Mbps","10 MB = 10×10^6×8 = 8×10^7 bits<br>8×10^7 / 10^8 = <b>0.8 s</b> (using 2^20 B/MB: 0.84 s)"],
+[42,"3 links × 500 km, 2.5×10^8 m/s, 50 Mbps, 1 MB packet","Ttrans = 8×10^6/50×10^6 = 0.16 s; Tprop = 5×10^5/2.5×10^8 = 2 ms.<br>Per link 0.162 s → <b>0.486 s</b>"],
+[43,"Four nodes with 5 ms processing each, 10 Mbps, 3×10^8 m/s, 1000 km, 2 MB packet","Ttrans = 16×10^6/10^7 = 1.6 s; Tprop = 10^6/3×10^8 = 3.33 ms; Tproc = 4×5 = 20 ms.<br>Total = 1.6 + 0.00333 + 0.02 = <b>≈ 1.6233 s</b>"],
+[44,"3 links × 5000 km, 2.5×10^8 m/s, 50 Mbps, 10 MB packet, each node 20 ms processing + 5 ms queuing","Ttrans/link = 80×10^6/50×10^6 = 1.6 s; Tprop/link = 5×10^6/2.5×10^8 = 20 ms → 1.62 s ×3 = 4.86 s.<br>2 intermediate nodes: 2×(20+5) = 50 ms.<br><b>Total ≈ 4.91 s</b>"],
+[45,"Propagation delay: 2500 km, 2×10^8 m/s","2.5×10^6 / 2×10^8 = <b>12.5 ms</b>"],
+[46,"Delay 20 ms for 6000 km; new delay for 9000 km","Delay ∝ distance: 20 × 9000/6000 = <b>30 ms</b>"],
+[47,"Three links (1000 km,10 Mbps,2×10^8), (2000 km,50 Mbps,2.5×10^8), (1500 km,20 Mbps,2×10^8); 500 KB packet","Bits = 4×10^6.<br>L1: 0.4 s + 5 ms = 0.405 s<br>L2: 0.08 s + 8 ms = 0.088 s<br>L3: 0.2 s + 7.5 ms = 0.2075 s<br><b>Total = 0.7005 s</b>"],
+[48,"5 MB file in 1 KB packets at 5 Mbps: per-packet and total transmission delay","Packet = 8000 bits → 8000/5×10^6 = <b>1.6 ms</b><br>Packets = 5000 → total = 5000×1.6 ms = <b>8 s</b>"],
+[49,"500 KB file, 100 km link, 5 Mbps, 2×10^8 m/s","Ttrans = 4×10^6/5×10^6 = 0.8 s; Tprop = 10^5/2×10^8 = 0.5 ms.<br><b>Total = 800.5 ms</b>"],
+[50,"Four links, 2 MB packet: (800 km,20 Mbps,2e8), (1000 km,30 Mbps,2.5e8), (600 km,15 Mbps,2e8), (1200 km,40 Mbps,2.5e8)","Bits = 16×10^6.<br>L1: 0.8 + 0.004 = 0.804 s<br>L2: 0.5333 + 0.004 = 0.5373 s<br>L3: 1.0667 + 0.003 = 1.0697 s<br>L4: 0.4 + 0.0048 = 0.4048 s<br><b>Total ≈ 2.816 s</b>"],
+[51,"8 MB file in 512 KB packets at 10 Mbps: total transmission time","Total bits = 8×10^6×8 = 64×10^6 (16 packets of 4×10^6 bits, 0.4 s each)<br>64×10^6 / 10^7 = <b>6.4 s</b>"],
+[52,"Propagation delay: 2500 km fiber, 2×10^8 m/s","2.5×10^6 / 2×10^8 = <b>12.5 ms</b>"],
+[53,"Propagation delay: 300 m copper, 2×10^8 m/s","300 / 2×10^8 = 1.5×10^-6 s = <b>1.5 µs</b>"],
+[54,"Propagation delay: 6500 km, 2×10^8 m/s","6.5×10^6 / 2×10^8 = <b>32.5 ms</b>"],
+[55,"Types of networks with examples","<b>PAN</b>: ~1–10 m around a person (Bluetooth headset, phone-watch).<br><b>LAN</b>: room/building/campus (office or lab Ethernet, Wi-Fi).<br><b>MAN</b>: a city (cable TV network, city-wide Wi-Fi, bank branches).<br><b>WAN</b>: country/world (the Internet, ATM/airline reservation network)."],
+[56,"Purpose of layered architecture","Splits a complex communication task into smaller modules; each layer offers services to the layer above and uses the one below.<br>Benefits: modularity, layer independence, easy troubleshooting/upgrades, standard interfaces and multi-vendor interoperability."],
+[57,"OSI layers and functions","<b>Physical</b>: bit transmission, signals. <b>Data link</b>: framing, MAC addressing, error/flow control. <b>Network</b>: logical addressing, routing. <b>Transport</b>: end-to-end delivery, segmentation, reliability. <b>Session</b>: dialog control, synchronization. <b>Presentation</b>: translation, encryption, compression. <b>Application</b>: user services (mail, web, file transfer)."],
+[58,"TCP/IP layers","<b>Application</b> (HTTP, SMTP, FTP, DNS) → <b>Transport</b> (TCP, UDP) → <b>Internet</b> (IP, ICMP, routing) → <b>Network access</b> (Ethernet, Wi-Fi: OSI physical + data link). OSI session/presentation are merged into Application."],
+[59,"Network devices and functions","<b>Repeater</b>: regenerates signal (L1). <b>Hub</b>: multiport repeater, broadcasts (L1). <b>Bridge/Switch</b>: forwards frames using MAC table (L2). <b>Router</b>: forwards packets between networks by IP (L3). <b>Gateway</b>: protocol conversion between different architectures. <b>Modem</b>: digital ↔ analog conversion.<br>Typical chain: PCs → Switch → Router → Modem → Internet."],
+[60,"Switch vs Router","<b>Switch</b>: Layer 2, uses MAC addresses, connects devices inside one LAN, one broadcast domain (unless VLANs), very fast.<br><b>Router</b>: Layer 3, uses IP addresses and routing tables, connects different networks, separates broadcast domains, offers NAT/firewall."],
+[61,"Functions of Physical layer","Bit representation/encoding, data rate, bit synchronization, physical topology, transmission mode (simplex/half/full duplex), physical interface and media."],
+[62,"Functions of Data link layer","Framing, physical (MAC) addressing, error control, flow control, medium access control."],
+[63,"Functions of Network layer","Logical (IP) addressing, routing/path selection, packet forwarding, fragmentation, congestion control."],
+[64,"Functions of Transport and Session layers","<b>Transport</b>: process-to-process delivery (ports), segmentation/reassembly, connection control, flow and error control, multiplexing.<br><b>Session</b>: dialog control, synchronization/checkpoints, session setup and teardown."],
+[65,"Functions of Application and Presentation layers","<b>Application</b>: interface and services for users (e-mail, file transfer, web, directory).<br><b>Presentation</b>: translation between data formats, encryption/decryption, compression."],
+[66,"Define computer network and its components","A network is a set of interconnected autonomous devices that share resources and data over a medium.<br>Components: hosts/end devices, NICs, transmission media, connecting devices (hub, switch, router), servers, protocols and network software."]
+],[
+[107,"Define topology; common topologies","Topology is the physical/logical arrangement of devices and links in a network.<br>Common: mesh, star, bus, ring, tree, hybrid."],
+[108,"Explain topologies with uses","<b>Mesh</b>: dedicated links, robust – backbones.<br><b>Star</b>: central hub/switch, easy management – office LANs.<br><b>Bus</b>: single shared cable, cheap – small/legacy LANs.<br><b>Ring</b>: each node linked to two neighbors, token passing – FDDI/legacy MANs.<br><b>Tree/Hybrid</b>: campuses and large organizations."],
+[109,"Types of transmission media","<b>Guided</b>: twisted pair (UTP/STP), coaxial cable, fiber-optic cable.<br><b>Unguided (wireless)</b>: radio waves, microwaves, infrared, satellite."],
+[110,"Primary functions of Physical layer","Bit encoding and signaling, data rate, synchronization, physical topology, transmission mode and interface to the media (see Q61)."],
+[111,"6 devices in a mesh: cables and ports per device","Cables = n(n−1)/2 = 6×5/2 = <b>15</b><br>Ports per device = n−1 = <b>5</b>"],
+[112,"Modes of propagating light in optical channels","<b>Multimode step-index</b>: rays reflect off core–cladding boundary; pulses spread (modal dispersion).<br><b>Multimode graded-index</b>: refractive index varies, rays refocus; less distortion.<br><b>Single mode</b>: very thin core, one ray travels straight; lowest dispersion, long distance."],
+[113,"Guided vs unguided media","Guided: signal confined to a physical conductor (cable, fiber); more secure, less interference. Unguided: signal travels through air/vacuum, broadcast to all, supports mobility but is prone to interference and eavesdropping."],
+[114,"Short note: Coaxial cable","Central copper conductor, insulator, braided metal shield, outer jacket; uses BNC connectors. Better shielding and bandwidth than twisted pair; thinnet/thicknet types. Used in cable TV and older Ethernet; bulky and easy to tap."],
+[115,"Short note: Fiber cable","Glass/plastic core, cladding, buffer, jacket; sends light by total internal reflection. Huge bandwidth, low attenuation, immune to EMI, secure. Costly, fragile, hard to install. Used in backbones and long-distance links."],
+[116,"Short note: Radio communication","Radio waves (3 kHz–1 GHz) are omnidirectional and pass through walls, so no line of sight or dishes needed. Used in AM/FM radio, cordless phones, paging. Prone to interference; low frequencies use ground or sky propagation."]
+],[
+[136,"Stop-and-wait is same as sliding window with window size ___","<b>1</b> (sender sends one frame and waits for ACK)."],
+[137,"Number of ACK sent by receiver on receiving packet 8","The ACK carries the next expected frame number → <b>9</b>."],
+[138,"Receiver window of Go-Back-N when sender window is 9","GBN receiver window is always <b>1</b>."],
+[139,"Sent 0100010001000011, received 0101110101000011: burst length","Differences at bit positions 4, 5 and 8 (from left).<br>Burst length = first to last error = 8 − 4 + 1 = <b>5 bits</b>"],
+[140,"Convert x^5 + x + 1 to binary","Coefficients for x^5..x^0 = 1,0,0,0,1,1 → <b>100011</b>"],
+[141,"CRC: sent data 100100001, original data 6 bits: key size","Total 9 bits − 6 data = 3 CRC bits = key length − 1 → key = <b>4 bits</b>"],
+[142,"Stop-and-wait, every 4th transmission lost, 10 packets: total transmissions","Let T be transmissions; ⌊T/4⌋ are lost.<br>T − ⌊T/4⌋ = 10 → T = 13 (13 − 3 = 10).<br><b>13 transmissions</b>"],
+[143,"Checksum of 0101 0011 1000","0101+0011 = 1000; 1000+1000 = 10000 → wrap carry: 0000+1 = 0001<br>One's complement = <b>1110</b>"],
+[144,"Hamming (even parity) for 0100110; find error in 01010010001","Positions counted from the right (book convention); parity at 1,2,4,8; data 0100110 at positions 11,10,9,7,6,5,3.<br>P1 (3,5,7,9,11): 0,1,0,0,0 → 1<br>P2 (3,6,7,10,11): 0,1,0,1,0 → 0<br>P4 (5,6,7): 1,1,0 → 0<br>P8 (9,10,11): 0,1,0 → 1<br><b>Codeword = 01010110001</b><br>Received 01010010001 differs at bit 6 → <b>error at position 6</b>"],
+[145,"LRC of 11100111 11011101 00111001 10101001","Column-wise XOR (even parity):<br>11100111 ⊕ 11011101 = 00111010<br>⊕ 00111001 = 00000011<br>⊕ 10101001 = <b>10101010</b>"],
+[146,"CRC of M=1010001101 with x^5+x^4+x^2+1; is 101000110101100 error-free?","Divisor = 110101. Append 5 zeros: 101000110100000.<br>Mod-2 division gives remainder <b>01110</b> → transmitted codeword 1010001101<b>01110</b>.<br>Received ends with 01100 ≠ 01110, so its remainder is non-zero → <b>No</b>"],
+[147,"Checksum of 10011001 11100010 00100100 10000100","10011001+11100010 = 01111011 + carry 1 = 01111100<br>+00100100 = 10100000<br>+10000100 = 00100100 + carry 1 = 00100101<br>Complement = <b>11011010</b>"],
+[148,"RTT in stop-and-wait if propagation delay 3.7 ms","RTT = 2×Tp = <b>7.4 ms</b>"],
+[149,"Hamming code: 7 data bits → redundant bits","Need 2^r ≥ m + r + 1: r=3 → 8 ≥ 11 ✗; r=4 → 16 ≥ 12 ✓ → <b>4 bits</b>"],
+[150,"Even-parity Hamming received 10010100101: locate and correct error","Positions from the right: 11..1 = 1,0,0,1,0,1,0,0,1,0,1.<br>P1 (1,3,5,7,9,11) → odd ✗; P2 (2,3,6,7,10,11) → odd ✗; P4 (4,5,6,7) → odd ✗; P8 (8,9,10,11) → even ✓<br>Error position = 1+2+4 = <b>7</b>. Flip it → corrected data <b>10011100101</b>"],
+[151,"4 ESC received: how many discarded","Every ESC inserted by the sender is removed by the receiver: <b>2 ESC discarded</b> (the other 2 are data)."],
+[152,"Stop-and-wait: ACK lost","Sender's timer expires, it <b>retransmits the same frame</b>; receiver detects the duplicate by sequence number, discards it and sends the ACK again."],
+[153,"CRC: bit stream 10011101, generator x^3+1","Divisor 1001; append 3 zeros: 10011101000.<br>Mod-2 division → remainder <b>100</b>.<br>Transmitted: <b>10011101100</b>"],
+[154,"Codeword 100100001, key 1101: error?","Divide 100100001 by 1101 (mod 2): remainder = 000.<br><b>No error</b>"],
+[155,"Byte stuffing: ESC added when data has ESC-like bytes","One extra ESC is inserted before every flag/ESC-like byte in the data, so an ESC in the data is sent as ESC ESC (2 ESC bytes on the wire)."],
+[156,"CRC: bit stream 1101011011, generator x^4+x+1","Divisor 10011; append 4 zeros: 11010110110000.<br>Mod-2 division → remainder <b>1110</b>.<br>Transmitted: <b>11010110111110</b>"],
+[157,"Codeword 100000001, key 1101: error?","Dividing 100000001 by 1101 (mod 2) leaves remainder 011 ≠ 0.<br><b>Error detected</b>"],
+[158,"How many MAC addresses are available","48-bit address → 2^48 = <b>281,474,976,710,656</b> addresses."],
+[159,"Encode 1011 with (7,4) Hamming","Layout: P1 P2 D3 P4 D5 D6 D7 with D3=1, D5=0, D6=1, D7=1.<br>P1 (3,5,7) = 1⊕0⊕1 = 0<br>P2 (3,6,7) = 1⊕1⊕1 = 1<br>P4 (5,6,7) = 0⊕1⊕1 = 0<br>Codeword = <b>0110011</b>"],
+[160,"Received Hamming word 1010111: error?","Bits 1..7 = 1,0,1,0,1,1,1.<br>P1 (1,3,5,7): 1,1,1,1 → even ✓<br>P2 (2,3,6,7): 0,1,1,1 → odd ✗<br>P4 (4,5,6,7): 0,1,1,1 → odd ✗<br>Error position = 2+4 = <b>6</b> (corrected: 1010101)"],
+[161,"Hamming word 1101101: parity checks and errors","Bits 1..7 = 1,1,0,1,1,0,1.<br>P1 (1,3,5,7): 1,0,1,1 → 1 (odd ✗)<br>P2 (2,3,6,7): 1,0,0,1 → 0 ✓<br>P4 (4,5,6,7): 1,1,0,1 → 1 ✗<br>(P8 not applicable for 7 bits.)<br>Error position = 1+4 = <b>5</b>"],
+[162,"Go-Back-4: every 6th transmission lost, 10 packets: transmissions","t1–t5 = pkts 1–5, t6 = pkt 6 lost; pkts 7–9 discarded → 9 sent.<br>Timeout: resend 6,7,8,9,10: t10=6, t11=7, t12=8 lost, t13=9 and t14=10 discarded.<br>Timeout: resend 8,9,10 = 3 more.<br>Total = 14 + 3 = <b>17 transmissions</b>"]
+],[
+[198,"Pure ALOHA, 200-bit frames, 200 kbps, 1000 frames/s: throughput","Tfr = 200/200,000 = 1 ms; G = 1000×1 ms = 1.<br>S = G·e^(−2G) = e^−2 = 0.135<br>Throughput = 1000×0.135 = <b>≈ 135 frames/s</b>"],
+[199,"Same, 500 frames/s","G = 0.5; S = 0.5·e^−1 = 0.184<br>Throughput = 500×e^−1 = <b>≈ 184 frames/s</b>"],
+[200,"Same, 250 frames/s","G = 0.25; e^(−0.5) = 0.6065<br>Throughput = 250×0.6065 = <b>≈ 152 frames/s</b>"],
+[201,"Pure ALOHA, 100 stations, Tfr = 1 µs: frames per station for max efficiency","Max at G = 0.5 (0.5 frames per Tfr overall).<br>Total = 0.5/1 µs = 500,000 frames/s → per station = <b>5000 frames/s</b>"],
+[202,"Pure ALOHA, 1000-bit frames, 1 Mbps, 1000 frames/s offered: throughput","Tfr = 1 ms; G = 1; S = e^−2 = 0.1353<br>Throughput = 1000×0.1353 = <b>≈ 135 frames/s</b>"],
+[203,"Tfr = 20 ms, G = 1: frames generated in 1 s, for pure and slotted ALOHA","G = 1 → 1 frame per 20 ms → <b>50 frames generated</b> (both).<br>Pure: 50×e^−2 = <b>≈ 6.8</b> succeed. Slotted: 50×e^−1 = <b>≈ 18.4</b> succeed."],
+[204,"Slotted ALOHA, 100 stations, Tfr = 1 µs: frames per station for max efficiency","Max at G = 1 → 10^6 frames/s total.<br>Per station = <b>10,000 frames/s</b>"],
+[205,"Slotted ALOHA, 200-bit frames, 200 kbps, 1000 frames/s","Tfr = 1 ms; G = 1; S = G·e^−G = 0.368<br>Throughput = <b>≈ 368 frames/s</b>"],
+[206,"Same, 500 frames/s","G = 0.5; 500×e^(−0.5) = 500×0.6065 = <b>≈ 303 frames/s</b>"],
+[207,"Same, 250 frames/s","G = 0.25; 250×e^(−0.25) = 250×0.7788 = <b>≈ 195 frames/s</b>"],
+[208,"Tp = 2 ms: find TB (back-off) for K = 1, 2, 3","TB = R × Tp, R ∈ [0, 2^K − 1].<br>K=1: R ∈ {0,1} → TB = 0 or 2 ms<br>K=2: R ∈ {0..3} → 0, 2, 4, 6 ms<br>K=3: R ∈ {0..7} → 0, 2, 4, … , 14 ms"],
+[209,"Pure ALOHA, 200-bit frames at 200 kbps: requirement for collision-free frame","Tfr = 1 ms. Vulnerable time = 2×Tfr = <b>2 ms</b>: no other station may send during the 1 ms before or the 1 ms after the frame starts."],
+[210,"CSMA/CD, 10 Mbps, max propagation time 25.6 µs: minimum frame size","Tfr ≥ 2×Tp = 51.2 µs<br>Size = 10×10^6 × 51.2×10^-6 = 512 bits = <b>64 bytes</b>"],
+[211,"CSMA/CD, after 3rd collision: P(k = 2)","k ∈ {0 … 2^3 − 1} = 8 values<br>P = <b>1/8 = 0.125</b>"],
+[212,"After 4th collision: P(K = 5); delay with Tfr = 0.125 µs","k ∈ {0 … 15} = 16 values → P = <b>1/16 = 0.0625</b><br>Delay = K×Tfr = 5×0.125 µs = <b>0.625 µs</b> (6.25×10^-7 s)"],
+[213,"After 6th collision: P(k = 10); delay with Tfr = 0.5 µs","k ∈ {0 … 63} = 64 values → P = <b>1/64 = 0.0156</b><br>Delay = 10×0.5 µs = <b>5 µs</b> (5×10^-6 s)"]
+],[],[],[],[],[],[]];
+start();
+</script></body></html>
